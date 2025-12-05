@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quickspecs & Whitepapers Viewer</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Import Map for React and Libraries -->
+    <script type="importmap">
+    {
+        "imports": {
+            "react": "https://esm.sh/react@18.2.0",
+            "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+            "lucide-react": "https://esm.sh/lucide-react@0.263.1"
+        }
+    }
+    </script>
+</head>
+<body class="bg-slate-50">
+    <div id="root"></div>
+
+    <script type="text/babel" data-type="module">
+        import React, { useState } from 'react';
+        import { createRoot } from 'react-dom/client';
+        import { Cloud, Smartphone, Monitor, Info, Mail, AlertTriangle, Menu, X, ExternalLink, RefreshCw, Folder, CheckCircle, Search, Download, Copy } from 'lucide-react';
+
+        const App = () => {
+            const [activeTab, setActiveTab] = useState('sync');
+            const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+            const tabs = [
+                { id: 'sync', label: 'Sync Quickspecs Sharepoint folder', icon: Cloud },
+                { id: 'desktop', label: 'Desktop Shortcut', icon: Monitor },
+                { id: 'mobile', label: 'OneDrive Mobile Sync', icon: Smartphone },
+                { id: 'about', label: 'About & Support', icon: Info },
+            ];
+
+            const renderContent = () => {
+                switch (activeTab) {
+                    case 'sync':
+                        return <SharepointSyncGuide />;
+                    case 'desktop':
+                        return <DesktopShortcutGuide />;
+                    case 'mobile':
+                        return <OneDriveSyncGuide />;
+                    case 'about':
+                        return <AboutSection />;
+                    default:
+                        return <SharepointSyncGuide />;
+                }
+            };
+
+            return (
+                <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-800">
+                    {/* Header - Light Theme */}
+                    <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
+                        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+                            <div className="flex items-center space-x-3">
+                                {/* HP Logo Image */}
+                                <div className="flex-shrink-0">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/HP_logo_2025.svg.png" 
+                                        alt="HP Logo" 
+                                        className="h-12 w-auto object-contain"
+                                    />
+                                </div>
+                                <div className="pl-2 border-l border-slate-200">
+                                    <h1 className="text-xl font-bold tracking-tight text-slate-900">Quickspecs & Whitepapers Viewer</h1>
+                                    <p className="text-xs text-slate-500 font-medium">User Guide</p>
+                                </div>
+                            </div>
+
+                            {/* Desktop Navigation */}
+                            <nav className="hidden md:flex space-x-1">
+                                {tabs.map((tab) => (
+                                    <button
+                                        key={tab.id}
+                                        onClick={() => setActiveTab(tab.id)}
+                                        className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 flex items-center space-x-2 ${
+                                            activeTab === tab.id
+                                                ? 'bg-blue-50 text-blue-700 shadow-sm border border-blue-100'
+                                                : 'text-slate-600 hover:bg-slate-50 hover:text-blue-600'
+                                        }`}
+                                    >
+                                        <tab.icon size={16} />
+                                        <span>{tab.label}</span>
+                                    </button>
+                                ))}
+                            </nav>
+
+                            {/* Mobile Menu Button */}
+                            <button 
+                                className="md:hidden p-2 text-slate-600 hover:bg-slate-100 rounded-md"
+                                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                            >
+                                {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                            </button>
+                        </div>
+
+                        {/* Mobile Navigation Dropdown */}
+                        {isMobileMenuOpen && (
+                            <div className="md:hidden bg-white border-t border-slate-200 shadow-lg">
+                                <div className="px-2 pt-2 pb-3 space-y-1">
+                                    {tabs.map((tab) => (
+                                        <button
+                                            key={tab.id}
+                                            onClick={() => {
+                                                setActiveTab(tab.id);
+                                                setIsMobileMenuOpen(false);
+                                            }}
+                                            className={`block w-full text-left px-3 py-3 rounded-md text-base font-medium flex items-center space-x-3 ${
+                                                activeTab === tab.id
+                                                    ? 'bg-blue-50 text-blue-700 border border-blue-100'
+                                                    : 'text-slate-600 hover:bg-slate-50 hover:text-blue-600'
+                                            }`}
+                                        >
+                                            <tab.icon size={18} />
+                                            <span>{tab.label}</span>
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                    </header>
+
+                    {/* Main Content Area */}
+                    <main className="flex-grow container mx-auto px-4 py-8">
+                        <div className="max-w-5xl mx-auto">
+                            {renderContent()}
+                        </div>
+                    </main>
+                </div>
+            );
+        };
+
+        // --- Sub-Components ---
+
+        const SharepointSyncGuide = () => (
+            <div className="space-y-6 animate-in fade-in duration-500">
+                
+                {/* Critical Requirement Alert */}
+                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-md shadow-sm">
+                    <div className="flex">
+                        <div className="flex-shrink-0">
+                            <Info className="text-blue-600" size={24} />
+                        </div>
+                        <div className="ml-4">
+                            <h3 className="text-base font-bold text-blue-900 uppercase tracking-wide">Critical Requirement</h3>
+                            <p className="text-sm text-blue-800 mt-2 leading-relaxed">
+                                To use the QuickSpecs & Whitepapers Viewer app, you must sync the Sharepoint folder to your local OneDrive. Please follow the steps below.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Step 1 */}
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="p-6 md:p-8">
+                        <div className="flex flex-col md:flex-row gap-6 items-start">
+                            <div className="flex-shrink-0 bg-gradient-to-br from-blue-500 to-blue-600 text-white font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-sm">1</div>
+                            <div className="flex-grow w-full">
+                                <h2 className="text-xl font-bold text-slate-800 mb-3">Access SharePoint & Shortcut</h2>
+                                <p className="text-slate-600 mb-4">
+                                    Open the QuickSpecs folder on SharePoint by clicking the link below:
+                                </p>
+                                
+                                <a 
+                                    href="https://hp.sharepoint.com/teams/pstechpresales/Shared%20Documents/Quickspecs" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition-colors bg-blue-50 px-4 py-2 rounded-md border border-blue-100 mb-6 group"
+                                >
+                                    <ExternalLink className="mr-2 group-hover:scale-110 transition-transform" size={16} />
+                                    hp.sharepoint.com/.../Quickspecs
+                                </a>
+
+                                <p className="text-slate-600 mb-6">
+                                    Once the page loads, look for the toolbar menu and click on <span className="font-semibold text-slate-900 bg-slate-100 px-2 py-1 rounded border border-slate-200 text-sm">Add shortcut to OneDrive</span>.
+                                </p>
+                                
+                                <div className="mt-4 mb-2">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/Picture1.png" 
+                                        alt="Figure 1: Adding shortcut to OneDrive" 
+                                        className="rounded-lg border border-slate-200 shadow-sm w-full h-auto object-cover" 
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Step 2 */}
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="p-6 md:p-8">
+                        <div className="flex flex-col md:flex-row gap-6 items-start">
+                            <div className="flex-shrink-0 bg-gradient-to-br from-blue-500 to-blue-600 text-white font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-sm">2</div>
+                            <div className="flex-grow w-full">
+                                <h2 className="text-xl font-bold text-slate-800 mb-3">Enable Offline Access</h2>
+                                <p className="text-slate-600 mb-4">
+                                    Open your local OneDrive folder using File Explorer. Search for the folder named:
+                                </p>
+                                
+                                <div className="bg-slate-100 border border-slate-200 rounded-md p-3 mb-6 font-mono text-sm text-slate-700 flex items-center">
+                                    <Folder size={16} className="mr-2 text-yellow-500 fill-yellow-500" />
+                                    PS Technical Presales - Quickspecs
+                                </div>
+
+                                <p className="text-slate-600 mb-6">
+                                    Right-click on the folder and select <span className="font-semibold text-slate-900 bg-slate-100 px-2 py-1 rounded border border-slate-200 text-sm">Always keep on this device</span>. This ensures the files are downloaded and available for the app to use.
+                                </p>
+                                
+                                <div className="mt-4 mb-2">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/Picture2.png" 
+                                        alt="Figure 2: Enabling offline access" 
+                                        className="rounded-lg border border-slate-200 shadow-sm w-full h-auto object-cover" 
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Step 3 */}
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="p-6 md:p-8">
+                        <div className="flex flex-col md:flex-row gap-6 items-start">
+                            <div className="flex-shrink-0 bg-gradient-to-br from-blue-500 to-blue-600 text-white font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-sm">3</div>
+                            <div className="flex-grow w-full">
+                                <h2 className="text-xl font-bold text-slate-800 mb-3">Copy the folder path</h2>
+                                <p className="text-slate-600 mb-4">
+                                    Copy the local path of your Quickspecs folder in onedrive, as you will need to put it in the installer script the first time.
+                                </p>
+                                
+                                {/* Visual Placeholder for Step 3 */}
+                                <div className="bg-slate-100 rounded-lg border-2 border-dashed border-slate-300 p-8 flex flex-col items-center justify-center min-h-[150px]">
+                                    <div className="bg-white p-4 rounded-full shadow-sm mb-3">
+                                        <Copy className="text-slate-400" size={32} />
+                                    </div>
+                                    <span className="text-slate-500 text-sm font-medium italic">Copy path from File Explorer address bar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        );
+
+        const DesktopShortcutGuide = () => (
+            <div className="space-y-6 animate-in fade-in duration-500">
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="bg-blue-50 px-6 py-4 border-b border-blue-100 flex items-center space-x-3">
+                        <Monitor className="text-blue-700" size={24} />
+                        <h2 className="text-lg font-bold text-blue-900">How to Open from Desktop Shortcut</h2>
+                    </div>
+                    <div className="p-6 md:p-8 space-y-8">
+                        
+                        <div className="flex flex-col md:flex-row gap-6 items-start">
+                            <div className="flex-shrink-0 bg-blue-100 text-blue-700 font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg">1</div>
+                            <div className="flex-grow">
+                                <h3 className="text-lg font-semibold text-slate-800 mb-2">Locate the Icon</h3>
+                                <p className="text-slate-600 mb-4">
+                                    Once the Quickspecs & Whitepapers Viewer is installed, you can launch it at any moment from the shortcut that is automatically created on your Desktop. Search for a HP icon labeled <strong>"QuickSpecs & Whitepapers Viewer"</strong>.
+                                </p>
+                                <div className="mt-4 mb-2">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/shortcut.png" 
+                                        alt="Desktop Shortcut Icon" 
+                                        className="rounded-lg border border-slate-200 shadow-sm w-auto h-32 object-cover mx-auto" 
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row gap-6 items-start">
+                            <div className="flex-shrink-0 bg-blue-100 text-blue-700 font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg">2</div>
+                            <div className="flex-grow">
+                                <h3 className="text-lg font-semibold text-slate-800 mb-2">Launch the Application</h3>
+                                <p className="text-slate-600">
+                                    Double-click the icon to launch the viewer. The application will automatically launch in your default browser (localhost:3000).
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        );
+
+        const OneDriveSyncGuide = () => (
+            <div className="space-y-6 animate-in fade-in duration-500">
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="bg-emerald-50 px-6 py-4 border-b border-emerald-100 flex items-center justify-between">
+                        <div className="flex items-center space-x-3">
+                            <Smartphone className="text-emerald-700" size={24} />
+                            <h2 className="text-lg font-bold text-emerald-900">Mobile Sync Guide</h2>
+                        </div>
+                        <span className="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded-full border border-emerald-200">
+                            Recommended
+                        </span>
+                    </div>
+                    
+                    <div className="p-6 md:p-8 space-y-8">
+                        <p className="text-slate-600 mb-8 text-lg leading-relaxed">
+                            Syncing the QuickSpecs SharePoint folder to your OneDrive mobile app allows you to access Quickspecs & Whitepapers on the go, even when offline.
+                        </p>
+
+                        {/* Step 1 */}
+                        <div className="flex flex-col md:flex-row gap-6 items-start border-b border-slate-100 pb-8">
+                            <div className="flex-shrink-0 bg-emerald-100 text-emerald-700 font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg">1</div>
+                            <div className="flex-grow space-y-2">
+                                <h3 className="text-lg font-semibold text-slate-800">Open the OneDrive App</h3>
+                                <p className="text-slate-600">
+                                    Launch the Microsoft OneDrive application on your mobile device.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Step 2 */}
+                        <div className="flex flex-col md:flex-row gap-6 items-start border-b border-slate-100 pb-8">
+                            <div className="flex-shrink-0 bg-emerald-100 text-emerald-700 font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg">2</div>
+                            <div className="flex-grow space-y-2">
+                                <h3 className="text-lg font-semibold text-slate-800">Search for the Folder</h3>
+                                <p className="text-slate-600">
+                                    Use the search bar to find the folder named <span className="font-semibold text-slate-800">"PS Technical Presales - Quickspecs"</span>.
+                                </p>
+                                <div className="mt-4 flex justify-center">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/phone1.png" 
+                                        alt="Search for QuickSpecs folder in OneDrive app" 
+                                        className="rounded-lg border border-slate-200 shadow-sm object-cover"
+                                        style={{ width: '80%' }}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Step 3 */}
+                        <div className="flex flex-col md:flex-row gap-6 items-start">
+                            <div className="flex-shrink-0 bg-emerald-100 text-emerald-700 font-bold w-10 h-10 rounded-full flex items-center justify-center text-lg">3</div>
+                            <div className="flex-grow space-y-2">
+                                <h3 className="text-lg font-semibold text-slate-800">Enable Offline Access</h3>
+                                <p className="text-slate-600">
+                                    Tap the three dots next to the folder and enable the <strong>"Make available offline"</strong> option.
+                                </p>
+                                <div className="mt-4 mb-6 flex justify-center">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/phone2.png" 
+                                        alt="Enable Make available offline option" 
+                                        className="rounded-lg border border-slate-200 shadow-sm object-cover"
+                                        style={{ width: '80%' }}
+                                    />
+                                </div>
+                                
+                                <div className="bg-emerald-50 p-4 rounded-md border border-emerald-100 flex items-center mb-6">
+                                    <CheckCircle className="text-emerald-500 mr-3" size={20} />
+                                    <p className="text-emerald-800 text-sm">
+                                        Success! The Quickspecs folder is now available in the <strong>"Offline"</strong> tab.
+                                    </p>
+                                </div>
+                                
+                                <div className="mt-4 flex justify-center">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/phone3.png" 
+                                        alt="Folder visible in Offline tab" 
+                                        className="rounded-lg border border-slate-200 shadow-sm object-cover"
+                                        style={{ width: '80%' }}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        );
+
+        const AboutSection = () => (
+            <div className="space-y-6 animate-in fade-in duration-500">
+                
+                {/* Internal Use Disclaimer */}
+                <div className="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-md shadow-sm">
+                    <div className="flex items-center">
+                        <AlertTriangle className="text-amber-600 mr-3 flex-shrink-0" size={20} />
+                        <p className="text-amber-800 font-medium text-sm">
+                            Disclaimer: The Quickspecs & Whitepaper Viewer is only intended for HP Internal use.
+                        </p>
+                    </div>
+                </div>
+
+                {/* How it Works Card */}
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="px-6 py-5 border-b border-slate-100">
+                        <h2 className="text-xl font-bold text-slate-800 flex items-center">
+                            <Info className="mr-2 text-blue-600" size={20} />
+                            How it Works
+                        </h2>
+                    </div>
+                    <div className="p-6 text-slate-600 space-y-4 text-sm leading-relaxed">
+                        <p>
+                            The <strong>QuickSpecs & Whitepapers Library</strong> on the PSTechPresales SharePoint is an automated repository that ensures TCs always have access to the latest PS QuickSpecs and Whitepapers.
+                            <br />  <br />
+                            The library is refreshed daily with content sourced directly from hp.com, guaranteeing that the versions you see match the most current public releases available to customers.
+                        </p>
+                          <br />
+                        <p className="mt-8 mb-4">
+                            The <strong>QuickSpecs & Whitepaper Viewer</strong> is a local web application designed to simplify navigation within QuickSpecs. E.g. it allows you to display two documents side by side for easy comparison and search for keywords across documents.
+                        </p>
+                        <p>
+                            Installation is done through a PowerShell script, which downloads the necessary components and configures the application to access your local QuickSpecs folder stored in OneDrive.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Support & Contact Card */}
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="px-6 py-5 border-b border-slate-100">
+                        <h2 className="text-xl font-bold text-slate-800 flex items-center">
+                            <Mail className="mr-2 text-blue-600" size={20} />
+                            Support
+                        </h2>
+                    </div>
+                    <div className="p-0">
+                        <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-100">
+                            
+                            {/* Column 1: App Issues */}
+                            <div className="p-6 hover:bg-slate-50 transition-colors">
+                                <h3 className="font-semibold text-slate-900 mb-3 flex items-center">
+                                    <AlertTriangle className="text-amber-500 mr-2" size={18} />
+                                    Missing Documents or App Issues
+                                </h3>
+                                <p className="text-sm text-slate-600 mb-4">
+                                    If you notice a document is missing from the library, or if you encounter technical issues with the Viewer application itself:
+                                </p>
+                                <div className="bg-slate-100 rounded-md p-3 border border-slate-200 inline-flex items-center">
+                                    <Mail size={16} className="text-slate-500 mr-2" />
+                                    <a href="mailto:ww.presales.expert.team@hp.com?subject=Quickspecs Viewer Issue - " className="font-mono text-sm text-blue-600 font-medium hover:underline hover:text-blue-800 transition-colors">ww.presales.expert.team@hp.com</a>
+                                </div>
+                            </div>
+
+                            {/* Column 2: Content Issues */}
+                            <div className="p-6 hover:bg-slate-50 transition-colors">
+                                <h3 className="font-semibold text-slate-900 mb-3 flex items-center">
+                                    <Book className="text-blue-500 mr-2" size={18} />
+                                    Content Errors
+                                </h3>
+                                <p className="text-sm text-slate-600 mb-4">
+                                    If you find an error <em>within</em> the content of a QuickSpecs PDF (e.g., incorrect specs, typos):
+                                </p>
+                                <div className="bg-blue-50 p-4 rounded-md border border-blue-100">
+                                    <p className="text-sm text-blue-800 font-medium mb-1">Do not report to the app team.</p>
+                                    <p className="text-xs text-blue-700">
+                                        Please follow the regular process to report content errors to <span className="font-bold">XXXXXXXXX</span>.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        );
+
+        // Helper for 'Book' icon in AboutSection which was missing from the import
+        const Book = ({ size, className }) => (
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width={size} 
+                height={size} 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className={className}
+            >
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+            </svg>
+        );
+
+        // Initial render
+        const root = createRoot(document.getElementById('root'));
+        root.render(<App />);
+
+    </script>
+</body>
+</html>
