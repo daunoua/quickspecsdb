@@ -174,10 +174,10 @@
                                     href="https://hp.sharepoint.com/teams/pstechpresales/Shared%20Documents/Quickspecs" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition-colors bg-blue-50 px-4 py-2 rounded-md border border-blue-100 mb-6 group"
+                                    className="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition-colors bg-blue-50 px-4 py-2 rounded-md border border-blue-100 mb-6 group break-all"
                                 >
-                                    <ExternalLink className="mr-2 group-hover:scale-110 transition-transform" size={16} />
-                                    hp.sharepoint.com/.../Quickspecs
+                                    <ExternalLink className="mr-2 flex-shrink-0 group-hover:scale-110 transition-transform" size={16} />
+                                    <span>https://hp.sharepoint.com/teams/pstechpresales/Shared%20Documents/Quickspecs</span>
                                 </a>
 
                                 <p className="text-slate-600 mb-6">
@@ -337,7 +337,7 @@
                                         src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/phone1.png" 
                                         alt="Search for QuickSpecs folder in OneDrive app" 
                                         className="rounded-lg shadow-sm object-cover"
-                                        style={{ width: '50%' }}
+                                        style={{ width: '35%' }}
                                     />
                                 </div>
                             </div>
@@ -356,7 +356,7 @@
                                         src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/phone2.png" 
                                         alt="Enable Make available offline option" 
                                         className="rounded-lg shadow-sm object-cover"
-                                        style={{ width: '50%' }}
+                                        style={{ width: '35%' }}
                                     />
                                 </div>
                                 
@@ -372,7 +372,7 @@
                                         src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/phone3.png" 
                                         alt="Folder visible in Offline tab" 
                                         className="rounded-lg shadow-sm object-cover"
-                                        style={{ width: '50%' }}
+                                        style={{ width: '35%' }}
                                     />
                                 </div>
                             </div>
@@ -416,6 +416,15 @@
                         </p>
                         <p>
                             Installation is done through a PowerShell script, which downloads the necessary components and configures the application to access your local QuickSpecs folder stored in OneDrive.
+                        </p>
+                        <p className="mt-4 pt-4 border-t border-slate-100">
+                             To get a new version you can simply download and run the latest Powershell installer script:
+                             <a 
+                                href="https://hp.sharepoint.com/teams/pstechpresales/Shared%20Documents/Tools/Quickspecs_Whitepaper_Viewer.zip" 
+                                className="block mt-2 text-blue-600 break-all hover:underline"
+                            >
+                                https://hp.sharepoint.com/teams/pstechpresales/Shared%20Documents/Tools/Quickspecs_Whitepaper_Viewer.zip
+                            </a>
                         </p>
                     </div>
                 </div>
