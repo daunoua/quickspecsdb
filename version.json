@@ -1,0 +1,5 @@
+{
+  "version": "1.7.0",
+  "downloadUrl": "https://raw.githubusercontent.com/daunoua/quickspecsdb/main/install_quickspecs_viewer.ps1",
+  "notes": "Added dark mode and fixed search bug."
+}
