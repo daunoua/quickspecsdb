@@ -554,8 +554,8 @@ c06887165,HP Collaboration G6 24 and 27 All-in-One with Zoom Rooms,Desktops,Pres
 c06953089,HP Desktop Pro G6 Microtower PC,Desktops,Desktop,G6,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953089
 c07722482,HP 205 G8 24 All-in-One PC,Desktops,200 Series,G8,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c07722482
 c08138298,HP Presence Meeting Space Solutions with Microsoft Teams Rooms,Desktops,Presence,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08138298
-c08202581,HP ProOne 240 23.8 inch G9 All-in-One Desktop PC,Desktops,ProOne,G9,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08202581
-c08210038,HP ProOne 240 23.8 inch G9 All-in-One Desktop PC,Desktops,ProOne,G9,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08210038
+c08202581,HP ProOne 240 23.8 inch G9 All-in-One Desktop PC EMEA,Desktops,ProOne,G9,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08202581
+c08210038,HP ProOne 240 23.8 inch G9 All-in-One Desktop PC APJ,Desktops,ProOne,G9,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08210038
 c08386706,"HP 34"" All-in-One Desktop PC",Desktops,Desktop,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08386706
 c05574097,HP Z22n G2 21.5-inch Display,Displays,Z Displays,G2,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c05574097
 c05738162,HP Z27n G2 27-inch Display,Displays,Z Displays,G2,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c05738162
@@ -590,7 +590,7 @@ c09219425,HP Engage Prime G2 Barcode Scanner,RIS,Scanner,,,https://www8.hp.com/h
 c09220352,HP AI Accelerator M.2 Card,RIS,Other Accessories,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c09220352
 c06936517,HP mt46 Mobile Thin Client,Thin Clients,Mobile Thin Client,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06936517
 c06953710,HP mt32 Mobile Thin Client,Thin Clients,Mobile Thin Client,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953710
-c09222532,HP ProDesk 5 G1 Thin Client,Thin Clients,Thin Client,G1,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c09222532
+c09222532,HP ProDesk 5 G1 Thin Client,Thin Clients,Thin Client,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c09222532
 4aa7-7185enw,HP ZCentral Remote Boost 2022 Quick Specs,Workstations,Accessories,,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4aa7-7185enw
 4aa7-7186enw,HP ZCentral Connect 2022 Quick Specs,Workstations,Accessories,,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4aa7-7186enw
 c06274598,HP VR Backpack G2,Workstations,VR,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06274598
@@ -615,7 +615,7 @@ c09212373,HP ZGX Nano G1n AI Station,Workstations,Desktop Workstation,,,https://
 4aa7-8109enw,Notebook OLED Display,Whitepapers,Notebook,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-8109enw
 4aa8-5154enw,Qualcomm Whitepaper,Whitepapers,Notebook,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-5154enw
 4aa7-4375enw,Thunderbolt Native + Low Power Mode On HP Elitebook,Whitepapers,Notebook,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-4375enw
-4AA7-7191ENW,Keeping You and Your Company Digitally Safe at Home,Whitepapers,Other,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-7191ENW
+4AA7-7191ENW,Keeping You and Your Company Digitally Safe at Home,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-7191ENW
 4AA8-2917ENW,Top 5 Reasons to Think Outside the Traditional VDI Box,Whitepapers,Other,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-2917ENW
 4AA8-4640ENW,Reduce E-Waste by Giving Devices a Second Life,Whitepapers,Other,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4640ENW
 4AA8-4919ENW,How to Clean Your HP Device with Approved Disinfecting Wipes,Whitepapers,Other,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4919ENW
@@ -633,7 +633,7 @@ c09016609,5 myth-busting facts about AI in the workplace,Whitepapers,Other,,Yes,
 4aa7-2224enw,Accessible Security for the Modern Workforce,Whitepapers,Other,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-2224enw
 c09110916,Agile IT-Organisation in der Hybrid-Work-Ära,Whitepapers,Other,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09110916
 c09016608,Empower your workforce to embrace AI and be a force for growth,Whitepapers,Other,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09016608
-c09079055,Faster CFD with Simcenter™ STAR-CCM+™ and NVIDIA RTX GPUs on the HP Z8 Fury G5,Whitepapers,Other,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09079055
+c09079055,Faster CFD with Simcenter™ STAR-CCM+™ and NVIDIA RTX GPUs on the HP Z8 Fury G5,Whitepapers,Workstation,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09079055
 4aa8-5084enw,HP Go Terms of Service,Whitepapers,Other,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-5084enw
 c07057076,HP Smart Support White Paper,Whitepapers,Other,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c07057076
 4aa8-1477enus,Hybrid Isn't the Destination,Whitepapers,Other,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-1477enus
@@ -688,7 +688,7 @@ c09008307,The essential AI checklist: Future-proof your workforce in six simple 
 4AA7-7561ENW,HP Proactive Security Whitepaper,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-7561ENW
 4AA7-2608ENW,HP Secure Erase for SSDs & HDDs,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-2608ENW
 4AA8-4560ENW,Better Together Whitepaper - Endpoint Security,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4560ENW
-4AA7-9734ENW,HP Workpath Apps - Security Features. Technical white paper,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-9734ENW
+4AA7-9734ENW,HP Workpath Apps - Security Features. Technical white paper,Whitepapers,Security,,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-9734ENW
 4AA8-4691ENW,Secure Device Management Lifecycle,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4691ENW
 4AA8-4638ENW,Secure Device Management Lifecycle,Whitepapers,Security,,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4638ENW
 4AA8-4637ENW,Securing Devices During Onboarding,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4637ENW
@@ -706,7 +706,7 @@ c09008307,The essential AI checklist: Future-proof your workforce in six simple 
 4AA7-4556ENW,HP Sure Recover Whitepaper,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-4556ENW
 4AA7-4216ENW,HP Supply Chain Security,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-4216ENW
 4AA7-4555ENW,HP Sure Click Whitepaper,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-4555ENW
-4AA6-0823ENW,MIL-STD-810 Testing for HP Business PCs,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA6-0823ENW
+4AA6-0823ENW,MIL-STD-810 Testing for HP Business PCs,Whitepapers,Other,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA6-0823ENW
 4AA8-4639ENW,Monitor and Remediate: Securing Hardware and Firmware,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4639ENW
 4AA8-4692ENW,Monitor and Remediate: Securing Hardware and Firmware,Whitepapers,Security,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-4692ENW
 4aa7-6614enw,HP Business PCs - Security Best Practices for IT Professionals Whitepaper,Whitepapers,Security,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-6614enw
@@ -717,7 +717,7 @@ c09008307,The essential AI checklist: Future-proof your workforce in six simple 
 4aa7-4019enw,LoJax Technical Analysis Whitepaper,Whitepapers,Security,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-4019enw
 c06457082,Security and HP Thin Clients Solutions Brief,Whitepapers,Security,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c06457082
 4aa8-4590enw,Security Whitepaper for Compute,Whitepapers,Security,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-4590enw
-4aa8-4990enw,Security Whitepaper for Print,Whitepapers,Security,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-4990enw
+4aa8-4990enw,Security Whitepaper for Print,Whitepapers,Security,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-4990enw
 4aa8-5202enw,Sure Recover in Wolf Security Controller Guide,Whitepapers,Security,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-5202enw
 4AA8-1886ENW,AY154AV HP Sure Recover Custom Restore Requirements and Deliverables,Whitepapers,Services,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-1886ENW
 4AA8-1908ENW,AY154AV HP Sure Recover Custom Restore Customer Whitepaper,Whitepapers,Services,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA8-1908ENW
