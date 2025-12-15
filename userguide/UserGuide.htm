@@ -236,15 +236,15 @@
                             <div className="flex-grow w-full">
                                 <h2 className="text-xl font-bold text-slate-800 mb-3">Copy the folder path</h2>
                                 <p className="text-slate-600 mb-4">
-                                    Copy the local path of your Quickspecs folder in onedrive, as you will need to put it in the installer script the first time.
+                                    The Quickspecs Viewer installer script should automatically detect that path. If it does not, copy it from your file explorer, so you can enter it manually in the installer wizard.
                                 </p>
                                 
-                                {/* Visual Placeholder for Step 3 */}
-                                <div className="bg-slate-100 rounded-lg border-2 border-dashed border-slate-300 p-8 flex flex-col items-center justify-center min-h-[150px]">
-                                    <div className="bg-white p-4 rounded-full shadow-sm mb-3">
-                                        <Copy className="text-slate-400" size={32} />
-                                    </div>
-                                    <span className="text-slate-500 text-sm font-medium italic">Copy path from File Explorer address bar</span>
+                                <div className="mt-4 mb-2">
+                                    <img 
+                                        src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/Picture3.png" 
+                                        alt="Figure 3: Copy path from File Explorer" 
+                                        className="rounded-lg border border-slate-200 shadow-sm w-full h-auto object-cover" 
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -465,9 +465,8 @@
                                     If you find an error <em>within</em> the content of a QuickSpecs PDF (e.g., incorrect specs, typos):
                                 </p>
                                 <div className="bg-blue-50 p-4 rounded-md border border-blue-100">
-                                    <p className="text-sm text-blue-800 font-medium mb-1">Do not report to the app team.</p>
-                                    <p className="text-xs text-blue-700">
-                                        Please follow the regular process to report content errors to <span className="font-bold">XXXXXXXXX</span>.
+                                                                        <p className="text-xs text-blue-700">
+                                        Please follow the regular process to report Quickspecs content error using the <a href="https://app.smartsheet.com/b/form/673712e6deb044a4a90d2bd2dcaf1260" className="font-bold underline hover:text-blue-900">PS Ticketing System</a>.
                                     </p>
                                 </div>
                             </div>
