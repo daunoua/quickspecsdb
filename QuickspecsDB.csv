@@ -551,12 +551,12 @@ c06718498,HP EliteDesk 805 G6 Business Desktops PCs,Desktops,EliteDesk,G6,,https
 c06724395,HP Chromebox Enterprise G3,Desktops,Chromebox,G3,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06724395
 c06724396,HP Chromebox G3,Desktops,Chromebox,G3,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06724396
 c06887165,HP Collaboration G6 24 and 27 All-in-One with Zoom Rooms,Desktops,Presence,G6,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06887165
-c06953089,HP Desktop Pro G6 Microtower PC,Desktops,Desktop,G6,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953089
+c06953089,HP Desktop Pro G6 Microtower PC,Desktops,ProDesk,G6,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953089
 c07722482,HP 205 G8 24 All-in-One PC,Desktops,200 Series,G8,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c07722482
 c08138298,HP Presence Meeting Space Solutions with Microsoft Teams Rooms,Desktops,Presence,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08138298
 c08202581,HP ProOne 240 23.8 inch G9 All-in-One Desktop PC EMEA,Desktops,ProOne,G9,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08202581
 c08210038,HP ProOne 240 23.8 inch G9 All-in-One Desktop PC APJ,Desktops,ProOne,G9,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08210038
-c08386706,"HP 34"" All-in-One Desktop PC",Desktops,Desktop,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08386706
+c08386706,"HP 34"" All-in-One Desktop PC",Desktops,Desktop,,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08386706
 c05574097,HP Z22n G2 21.5-inch Display,Displays,Z Displays,G2,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c05574097
 c05738162,HP Z27n G2 27-inch Display,Displays,Z Displays,G2,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c05738162
 c05738235,HP Z24n G2 24-inch Display,Displays,Z Displays,G2,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c05738235
@@ -570,7 +570,7 @@ c05810452,HP Turbo Drive G2 TLC 512GB Drive,Workstations,Accessories,,,https://w
 c06220106,AMD Radeon™ RX550X 4GB LP DisplayPort™ Card,Displays,Display,,Yes,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06220106
 c06525676,HP USB Type-C Extension Cable Kit (5M),Desktops,Accessories,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06525676
 c06712735,"HP 400/600 MT 2nd 3.5"" HDD cage",Desktops,Accessories,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06712735
-c06953090,HP Desktop Pro 300 G6 Microtower PC,Desktops,Desktop,G6,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953090
+c06953090,HP Desktop Pro 300 G6 Microtower PC,Desktops,ProDesk,G6,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953090
 c06953446,HP All-in-One 800 G6 Stands,Desktops,Accessories,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953446
 c06953447,HP ProOne G6 Adjustable Height Stand,Desktops,ProOne,G6,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06953447
 c08331970,HP ProOne G9 VESA Plate with Power Supply Holder,Desktops,ProOne,G9,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08331970
@@ -804,7 +804,7 @@ c05450017,Field Upgrades for HP Thin  Client,Whitepapers,Thin Clients,,,https://
 13138562,HP ThinPro 9 Administrator Guide,Whitepapers,Thin Clients,,,https://kaas.hpcloud.hp.com/pdf-public/pdf_13138562_en-US-1.pdf
 c09226978,HP EliteBook X G2a 14 inch Notebook Next Gen AI PC,Notebooks,EliteBook,G2a,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09226978
 c09230107,HP ProStudio 2 All-in-One G2i 24 Desktop PC,Desktops,ProStudio,G2i,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09230107
-c09231707,HP EliteBoard G1a Next Gen AI PC,Desktops,,G1a,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09231707
+c09231707,HP EliteBoard G1a Next Gen AI PC,Desktops,EliteBoard,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09231707
 c09232364,HP ProStudio 2 All-in-One G2a 24 Desktop PC,Desktops,ProStudio,G2a,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09232364
 c09221117,HP EliteBook X Flip G2i 14 inch Notebook Next Gen AI PC,Notebooks,EliteBook,G2i,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09221117
 c09221118,HP EliteBook X G2i 14 inch Notebook Next Gen AI PC,Notebooks,EliteBook,G2i,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09221118
