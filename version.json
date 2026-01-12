@@ -1,5 +1,6 @@
 {
-  "version": "1.5.0",
-  "downloadUrl": "https://raw.githubusercontent.com/daunoua/quickspecsdb/main/install_quickspecs_viewer.ps1",
-  "notes": "TEST FOR SHAPHAN Added dark mode and fixed search bug."
+  "version": "1.9.0",
+  "downloadUrl": "https://hp.sharepoint.com/:u:/r/teams/pstechpresales/Shared%20Documents/Tools/Quickspecs%20Viewer/Quickspecs_Whitepaper_Viewer.zip",
+  "notes": "Improved search capability"
+
 }
