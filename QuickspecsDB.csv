@@ -56,7 +56,7 @@ c08148468,HP ZBook 200W Slim Smart 4.5mm AC Adapter,Mobile Workstations,ZBook,,,
 c08339701,HP USB-C G5 Essential Dock,Docks,Dock,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08339701
 c07087546,HP 200 G8 21 All-in-One PC,Desktops,200 Series,G8,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c07087546
 c04200260,PCIe Solid State Drives for HP Workstations,Workstations,Accessories,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c04200260
-c09037963,HP Series 5 Pro 23.8 inch FHD USB-C Monitor - 524pu,Displays,Series 5,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c09037963
+c09037963,HP Series 5 Pro 23.8 inch FHD USB-C Monitor - 524pu,Displays,Scanner,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c09037963
 c08626170,HP Chromebox Enterprise G4,Desktops,Chromebox,G4,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08626170
 c07072088,HP Engage 6.6 inch Pole Display,RIS,Display,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c07072088
 c06721769,HP WIRED DESKTOP 320K KEYBOARD,Desktops,Accessories,,,https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c06721769
@@ -814,3 +814,94 @@ c09219538,HP 200 G2a 14 inch Notebook PC,Notebooks,200 Series,G2a,,https://h2019
 c09219539,HP 200 G2i 14 inch Notebook PC,Notebooks,200 Series,G2i,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09219539
 c09219540,HP 200 G2a 16 inch Notebook PC,Notebooks,200 Series,G2a,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09219540
 c09219541,HP 200 G2i 16 inch Notebook PC,Notebooks,200 Series,G2i,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09219541
+4aa7-4010enuc,AMS DIS - HP EliteDisplay E243p 23.8-inch Sure View Monitor Datasheet EN 11-2018,Displays,Elite Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-4010enuc
+4aa7-5397enuc,AMS DIS - HP Mini-in-One 23.8-inch Display Datasheet EN,Displays,Elite Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-5397enuc
+4aa7-2300enuc,AMS DT- HP Healthcare Edition HC270cr Clinical Review Monitor Datasheet EN 11/18,Displays,Elite Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-2300enuc
+4aa7-2549enuc,AMS HP DreamColor Z27x G2 Studio Display Datasheet,Displays,Z Displays,G2,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-2549enuc
+4aa6-9896enuc,AMS HP DreamColor Z31x Studio Display Datasheet,Displays,Z Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa6-9896enuc
+4aa7-0395enuc,AMS HP EliteDisplay E243 23.8-inch Monitor,Displays,Elite Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-0395enuc
+4aa7-0902enuc,AMS HP EliteDisplay E243m 23.8-inch Monitor Datasheet,Displays,Elite Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-0902enuc
+4aa7-0741enuc,AMS HP Z22n G2 21.5-inch Display Datasheet,Displays,Z Displays,G2,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-0741enuc
+4aa7-0740enuc,AMS HP Z23n G2 23-inch Display Datasheet,Displays,Z Displays,G2,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-0740enuc
+4aa7-0900enuc,AMS HP Z24n G2 24-inch Display Datasheet,Displays,Z Displays,G2,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-0900enuc
+4aa7-2054enuc,AMS HP Z27 27-inch 4K UHD Display Datasheet,Displays,Z Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-2054enuc
+4aa7-2055enuc,AMS HP Z32 31.5-inch 4K UHD Display Datasheet,Displays,Z Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-2055enuc
+4aa7-8473enuc,AMS MON - HP E24i G4 WUXGA Monitor Datasheet,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-8473enuc
+4aa7-9931enuc,AMS MON - HP E24mv G4 FHD Conferencing Monitor Datasheet,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-9931enuc
+4aa7-9111enuc,AMS MON - HP E24u G4 FHD USB-C Monitor Datasheet,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-9111enuc
+4aa7-9112enuc,AMS MON - HP E27u G4 QHD USB-C Monitor Datasheet,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-9112enuc
+4aa7-6435enuc,AMS MON - HP EliteDisplay E190i 18.9-inch LED Backlit IPS Monitor Datasheet,Displays,Elite Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-6435enuc
+4aa8-0295enuc,AMS MON - HP M24fd FHD USB-C Monitor Datasheet,Displays,Pro Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-0295enuc
+4aa8-0227enuc,AMS MON - HP P22a G4 FHD Monitor Datasheet,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-0227enuc
+4aa8-0008enuc,AMS MON - HP P22va G4 FHD Monitor Datasheet,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-0008enuc
+4aa8-0228enuc,AMS MON - HP P24a G4 FHD Monitor Datasheet,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-0228enuc
+4aa8-0226enuc,AMS MON - HP P24vb G4 FHD Monitor Datasheet,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-0226enuc
+4aa7-9160enuc,AMS MON - HP P34hc G4 WQHD USB-C Curved Monitor Datasheet,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-9160enuc
+4aa7-8829enuc,AMS MON - HP Z25xs G3 QHD USB-C DreamColor Display Datasheet,Displays,Z Displays,G3,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa7-8829enuc
+c08418866,HP E22 G5 FHD Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08418866
+c08986610,HP E24 G4 FHD Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08986610
+c08418864,HP E24 G5 FHD Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08418864
+c08104206,HP E24d G4 FHD USB-C Docking Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08104206
+c08986609,HP E24i G4 WUXGA Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08986609
+c07764284,HP E24m G4 FHD USB-C Conferencing Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c07764284
+c08986450,HP E24mv G4 FHD Conferencing Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08986450
+c08418862,HP E24t G5 FHD Touch Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08418862
+c08438702,HP E24u G5 FHD USB-C Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08438702
+c08418865,HP E27 G5 FHD Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08418865
+c08438705,HP E27k G5 4K USB-C Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08438705
+c07764288,HP E27m G4 QHD USB-C Conferencing Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c07764288
+c08986445,HP E27q G4 QHD Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08986445
+c08418867,HP E27q G5 QHD Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08418867
+c08438703,HP E27u G5 QHD USB-C Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08438703
+c07764287,HP E34m G4 WQHD Curved USB-C Conferencing Monitor,Displays,Elite Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c07764287
+c08438704,HP E45c G5 DQHD Curved Monitor,Displays,Elite Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08438704
+c08470905,HP M24m Conferencing Monitor Data Sheet,Displays,Pro Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08470905
+c08263555,HP P22 G5 FHD Monitor,Displays,Pro Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08263555
+c07763239,HP P22a G4 FHD Monitor,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c07763239
+c08272510,HP P22h G5 FHD Monitor,Displays,Pro Displays,G5,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08272510
+c07763240,HP P24a G4 FHD Monitor,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c07763240
+c07763238,HP P24vb G4 FHD Monitor,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c07763238
+c08986444,HP P34hc G4 WQHD USB-C Curved Monitor,Displays,Pro Displays,G4,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08986444
+4aa8-0275enl,HP Series 3 Pro 21.45 inch FHD Monitor - 322pe DataSheet,Displays,Series 3,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/4aa8-0275enl
+c09004059,HP Series 3 Pro 21.45 inch FHD Monitor - 322pv,Displays,Series 3,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09004059
+c09004068,HP Series 3 Pro 21.5 inch FHD Monitor - 322pf,Displays,Series 3,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09004068
+c09131064,HP Series 3 Pro 21.5 inch FHD Monitor 322ph,Displays,Series 3,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09131064
+c09086660,HP Series 3 Pro 23.8 inch FHD Monitor - 324pb,Displays,Series 3,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09086660
+c09132930,HP Series 3 Pro 23.8 inch FHD Monitor - 324pe,Displays,Series 3,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09132930
+c09003997,HP Series 3 Pro 23.8 inch FHD Monitor - 324pf,Displays,Series 3,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09003997
+c09131062,HP Series 3 Pro 23.8 inch FHD Monitor - 324ph,Displays,Series 3,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09131062
+c09004013,HP Series 3 Pro 23.8 inch FHD Monitor - 324pv,Displays,Series 3,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09004013
+c09135583,HP Series 3 Pro 27 inch FHD Monitor - 327pe,Displays,Series 3,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09135583
+c09135579,HP Series 3 Pro 27 inch FHD Monitor - 327pf,Displays,Series 3,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09135579
+c09135580,HP Series 3 Pro 27 inch FHD Monitor - 327ph,Displays,Series 3,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09135580
+c09083381,HP Series 5 27 inch FHD Monitor - 527da,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09083381
+c09207171,HP Series 5 Pro 14 inch WQXGA Portable Monitor - 514pn,Displays,Series 5,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09207171
+c09020351,HP Series 5 Pro 23.8 inch FHD Monitor - 524pf,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09020351
+c09054803,HP Series 5 Pro 23.8 inch FHD No Stand Monitor - 524pf,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09054803
+c09059086,HP Series 5 Pro 23.8 inch FHD USB-C Conferencing Monitor - 524pm,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09059086
+c09048350,HP Series 5 Pro 23.8 inch FHD USB-C Monitor - 524pu,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09048350
+c09018751,HP Series 5 Pro 24 inch WUXGA Monitor - 524pn,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09018751
+c09152862,HP Series 5 Pro 27 inch FHD Monitor - 527pf,Displays,Series 5,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09152862
+c09026630,HP Series 5 Pro 27 inch QHD Monitor - 527pq,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09026630
+c09054806,HP Series 5 Pro 27 inch QHD No Stand Monitor - 527pq,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09054806
+c09059081,HP Series 5 Pro 27 inch QHD USB-C Conferencing Monitor - 527pm,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09059081
+c09048349,HP Series 5 Pro 27 inch QHD USB-C Monitor - 527pu,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09048349
+c09059085,HP Series 5 Pro 34 inch WQHD USB-C Conferencing Monitor - 534pm,Displays,Series 5,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09059085
+c09208343,HP Series 5 Pro 49 inch DQHD Conferencing Monitor - 549pm,Displays,Series 5,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09208343
+c08906843,HP Series 7 Pro 23.8 inch FHD Monitor - 724pf,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08906843
+c08919865,HP Series 7 Pro 24 inch WUXGA Monitor - 724pn,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08919865
+c08919866,HP Series 7 Pro 24 inch WUXGA USB-C Monitor - 724pu,Displays,Series 7,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08919866
+c08949494,HP Series 7 Pro 27 inch 4K Conferencing Monitor - 727pm,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08949494
+c08949493,HP Series 7 Pro 27 inch 4K Thunderbolt 4 Monitor - 727pk,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08949493
+c08948958,HP Series 7 Pro 27 inch QHD Monitor - 727pq,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08948958
+c08949492,HP Series 7 Pro 27 inch QHD Thunderbolt 4 Monitor - 727pu,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08949492
+c09226142,HP Series 7 Pro 31.5 inch 4K Thunderbolt 4 Docking Monitor - 732xk,Displays,Series 7,,,https://h20195.www2.hp.com/v2/GetPDF.aspx/c09226142
+c08893314,HP Series 7 Pro 31.5 inch 4K Thunderbolt 4 Monitor - 732pk,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08893314
+c08948957,HP Series 7 Pro 34 inch WQHD Conferencing Monitor - 734pm,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08948957
+c08948959,HP Series 7 Pro 37.5 inch WQHD+ Thunderbolt 4 Monitor - 738pu,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08948959
+c08893146,HP Series 7 Pro 39.7 inch 5K2K Conferencing Monitor-740pm,Displays,Series 7,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08893146
+c08987305,HP Z24u G3 WUXGA USB-C Display,Displays,Z Displays,G3,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08987305
+c08987308,HP Z27q G3 QHD Display,Displays,Z Displays,G3,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08987308
+c08392146,HP Z27u G3 QHD Display,Displays,Z Displays,G3,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08392146
+c08318562,HP Z32k G3 4K USB-C Displays,Displays,Z Displays,G3,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08318562
+c08392080,HP Z38c 37.5-inch Curved Display,Displays,Z Displays,,Yes,https://h20195.www2.hp.com/v2/GetPDF.aspx/c08392080
