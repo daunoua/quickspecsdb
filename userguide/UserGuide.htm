@@ -36,7 +36,7 @@
 
             const tabs = [
                 { id: 'sync', label: 'Sync Quickspecs Sharepoint folder', icon: Cloud },
-                { id: 'desktop', label: 'Desktop Shortcut', icon: Monitor },
+                { id: 'desktop', label: 'Launch the Viewer', icon: Monitor },
                 { id: 'mobile', label: 'OneDrive Mobile Sync', icon: Smartphone },
                 { id: 'about', label: 'About & Support', icon: Info },
             ];
@@ -293,6 +293,29 @@
 
                     </div>
                 </div>
+
+                <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="bg-blue-50 px-6 py-4 border-b border-blue-100 flex items-center space-x-3">
+                        <Monitor className="text-blue-700" size={24} />
+                        <h2 className="text-xl font-bold text-blue-900">How to launch from System tray</h2>
+                    </div>
+                    <div className="p-6 md:p-8 space-y-8">
+                        <p className="text-base text-slate-600 mb-4 leading-relaxed">
+                            Once the Viewer app is started, it is available via an icon in the system tray. Look for the HP logo.
+                        </p>
+                         <div className="mt-4 mb-2">
+                            <img 
+                                src="https://raw.githubusercontent.com/daunoua/quickspecsdb/refs/heads/main/userguide/assets/systrayicon.png" 
+                                alt="System Tray Icon" 
+                                className="rounded-lg border border-slate-200 shadow-sm w-auto h-auto object-cover mx-auto" 
+                            />
+                        </div>
+                        <p className="text-base text-slate-600 mb-4 leading-relaxed">
+                            You can double-click the system tray icon to launch the viewer, or right-click it to access additional settings, including “Run at Startup,” which adds a shortcut to your Windows Startup folder.
+                        </p>
+                       
+                    </div>
+                </div>
             </div>
         );
 
@@ -452,7 +475,7 @@
                                 </p>
                                 <div className="bg-slate-100 rounded-md p-3 border border-slate-200 inline-flex items-center">
                                     <Mail size={16} className="text-slate-500 mr-2" />
-                                    <a href="mailto:ww.presales.expert.team@hp.com?subject=Quickspecs Viewer Issue - " className="font-mono text-sm text-blue-600 font-medium hover:underline hover:text-blue-800 transition-colors">ww.presales.expert.team@hp.com</a>
+                                    <a href="mailto:quickspecsviewer@hp.com?subject=Quickspecs%20Viewer%20-%20Support/Feedback&body=Hello,%0D%0A%0D%0A[Please%20describe%20your%20issue%20or%20feedback%20here]%0D%0A%0D%0A" className="font-mono text-sm text-blue-600 font-medium hover:underline hover:text-blue-800 transition-colors">quickspecsviewer@hp.com</a>
                                 </div>
                             </div>
 
